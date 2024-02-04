@@ -10,3 +10,6 @@ YARN_HOME=$HADOOP_INSTALL
 export
 HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_INSTALL/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_INSTALL/lib" #END
+
+
+PATH=$PATH:/usr/local/hadoop/hadoop-2.10.2/sbin
